@@ -4,6 +4,7 @@
         <router_example>
             <router>
                 <path>custom_router</path>
+                <giphy_key>RdvARKOLitEu36kDeWLlj8oEnNHwfroW</giphy_key>
             </router>
         </router_example>
     </default>

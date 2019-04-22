@@ -4,15 +4,18 @@
         <tab id="danielozano" translate="label" sortOrder="999">
             <label>Danielozano</label>
         </tab>
-        <section id="router_example" translate="label" type="text" sortOrder="999" showInDefault="1" showInWebsite="0" showInStore="0">
+        <section id="router_example" translate="label" type="text" sortOrder="999" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Router Example</label>
             <tab>danielozano</tab>
             <resource>Magento_Backend::system</resource>
-            <group id="router" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+            <group id="router" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Router Configuration</label>
-                <field id="path" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="path" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Router Path</label>
                     <comment>Matching path for router. Default is: custom_router</comment>
+                </field>
+                <field id="giphy_key" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>GIPHY Api Key</label>
                 </field>
             </group>
         </section>
