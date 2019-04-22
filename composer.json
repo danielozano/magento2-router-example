@@ -1,0 +1,16 @@
+{
+    "name": "danielozano/magento2-router-example",
+    "description": "Magento 2 Build a custom router",
+    "require": {
+        "php": ">=7.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Danielozano\\Logviewer\\": ""
+        }
+    }
+}
