@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="danielozano" translate="label" sortOrder="999">
+            <label>Danielozano</label>
+        </tab>
+        <section id="router_example" translate="label" type="text" sortOrder="999" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>Router Example</label>
+            <tab>danielozano</tab>
+            <resource>Magento_Backend::system</resource>
+            <group id="router" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Router Configuration</label>
+                <field id="path" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Router Path</label>
+                    <comment>Matching path for router. Default is: custom_router</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
